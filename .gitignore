@@ -23,5 +23,9 @@ yarn-error.log*
 .idea/
 .eslintcache
 .vscode/
+<<<<<<< HEAD
 .results/
 nxtTrendzProject/
+=======
+.results
+>>>>>>> 338708ed20d34eb12060939b9cbd441d0f7ec3a6

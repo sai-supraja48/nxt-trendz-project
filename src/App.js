@@ -17,8 +17,6 @@ class App extends Component {
     cartList: [],
   }
 
-  //   TODO: Add your code for remove all cart items, increment cart item quantity, decrement cart item quantity, remove cart item
-
   addCartItem = product => {
     const {cartList} = this.state
 
@@ -124,7 +122,7 @@ class App extends Component {
           />
           <ProtectedRoute exact path="/cart" component={Cart} />
           <Route path="/not-found" component={NotFound} />
-          <Redirect to="not-found" />
+          <Redirect to="/not-found" />
         </Switch>
       </CartContext.Provider>
     )
